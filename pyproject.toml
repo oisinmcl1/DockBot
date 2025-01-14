@@ -5,5 +5,7 @@ description = ""
 authors = ["Oisín Mc Laughlin"]
 requires-python = ">=3.11"
 dependencies = [
+    "beautifulsoup4>=4.12.3",
     "discord-py>=2.4.0",
+    "requests>=2.32.3",
 ]

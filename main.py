@@ -50,9 +50,7 @@ async def sendWifiDue():
 
 
 async def sendElectricDue():
-  """
-  Sends the Electric bill due reminder message to the 'due now' channel.
-  """
+  # sends electric bill due message
   channel = bot.get_channel(dueChannel)
   if channel:
     await channel.send("⚡ **The Electric bill is due today** ⚡")
