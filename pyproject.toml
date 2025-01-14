@@ -1,7 +1,9 @@
 [project]
-name = "python-template"
+name = "DockBot"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Oisín Mc Laughlin"]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "discord-py>=2.4.0",
+]
